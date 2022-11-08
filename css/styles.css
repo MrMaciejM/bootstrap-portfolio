@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 :root {
   --backg: #232323;
@@ -13,11 +14,17 @@ nav a,
 nav a:hover {
   color: var(--textGreen);
   font-size: 1.4rem;
+  border-radius: 9px;
+  transition: all 0.7s;
+}
+nav a:hover {
+  box-shadow: 0 0 10px 1px var(--textGreen);
 }
 body {
   color: var(--offWhite) !important;
   background-color: var(--backg) !important;
   margin: 0 1rem !important;
+  margin-top: 2rem !important;
 }
 .backg-reset {
   /* this is used to reset Bootstrap background styles */
@@ -141,6 +148,11 @@ h2 {
   margin: 0 auto;
   background-color: var(--offWhite) !important;
   color: var(--backg) !important;
+  transition: all 0.7s !important;
+}
+.btn:hover {
+  transition: all 0.7s;
+  box-shadow: 0 0 10px 4px var(--textGreen);
 }
 
 /* footer section */
@@ -150,4 +162,11 @@ h2 {
 .media a {
   display: block !important;
   margin: 0 auto !important;
+  transition: all 0.7s;
+}
+.media a:hover {
+  border-radius: 9px;
+  transition: all 0.7s;
+  box-shadow: 0 0 10px 1px var(--textGreen);
+  transform: scale(0.8);
 }
