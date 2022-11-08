@@ -46,6 +46,7 @@
       </div>
     </header>
     <main>
+      <!-- ********** -->
       <!-- jumbotron section / about me info -->
       <div class="jumbotron backg-reset text-center">
         <!-- <h2 class="display-4">Hello, world!</h2> -->
@@ -83,47 +84,84 @@
         <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
       </div>
 
+      <!-- ********** -->
       <!-- my work section -->
-      <div class="container-fluid">
-        <h2 class="text-center">My Work</h2>
-        <div class="row">
-          <!-- column 1 -->
-          <div class="col-sm column-1">
-            <div>
-              <h4>Placeholder</h4>
-              <img
-                class="project-image-1 project-images"
-                src="https://placehold.co/350x250"
-              />
-              <p>Placeholder</p>
+      <div class="my-work-container-fix">
+        <!-- I needed to wrap container-fluid in a div to stop the margin from extending to the right, thus extendind the page and creating horizontal scroll bar when I was using margin to align the sides of the document -->
+        <div class="container-fluid">
+          <h2 class="text-center">My Work</h2>
+          <div class="row">
+            <!-- column 1 -->
+            <div class="col-sm column-1">
+              <div>
+                <h4>Placeholder</h4>
+                <img
+                  class="project-image-1 project-images"
+                  src="https://placehold.co/350x250"
+                />
+                <p>Placeholder</p>
+              </div>
             </div>
-          </div>
-          <!-- column 2 -->
-          <div class="col-sm col-middle">
+            <!-- column 2 -->
+            <div class="col-sm col-middle">
+              <div class="col-sm">
+                <div>
+                  <h4>Placeholder</h4>
+                  <img
+                    class="project-image-2 project-images"
+                    src="https://placehold.co/350x250"
+                  />
+                  <p>Placeholder</p>
+                </div>
+              </div>
+            </div>
+            <!-- column 3 -->
             <div class="col-sm">
               <div>
                 <h4>Placeholder</h4>
                 <img
-                  class="project-image-2 project-images"
+                  class="project-image-3 project-images"
                   src="https://placehold.co/350x250"
                 />
                 <p>Placeholder</p>
               </div>
             </div>
           </div>
-          <!-- column 3 -->
-          <div class="col-sm">
-            <div>
-              <h4>Placeholder</h4>
-              <img
-                class="project-image-3 project-images"
-                src="https://placehold.co/350x250"
-              />
-              <p>Placeholder</p>
-            </div>
-          </div>
         </div>
       </div>
+      <!-- ********** -->
+      <!-- contact section -->
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Password"
+          />
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </main>
     <footer></footer>
   </body>

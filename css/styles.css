@@ -90,6 +90,9 @@ h2 {
 }
 
 /* grid / my work section */
+.my-work-container-fix {
+  margin: 0 4% !important;
+}
 .container-fluid {
   border-top: 1px var(--textGreen) solid !important;
   border-left: 1px var(--textGreen) solid !important;
@@ -98,6 +101,7 @@ h2 {
   background-repeat: no-repeat !important;
   background-size: cover;
   height: 100% !important;
+  margin-bottom: 6rem !important;
 }
 .container-fluid h2 {
   padding-top: 6rem;
