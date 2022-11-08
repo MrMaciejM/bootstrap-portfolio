@@ -1,0 +1,104 @@
+/* global resets and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --backg: #232323;
+  --textGreen: #00ce41;
+  --offWhite: #fcfcfc;
+}
+nav a,
+nav a:hover {
+  color: var(--textGreen);
+  font-size: 1rem;
+}
+body {
+  color: var(--offWhite) !important;
+  background-color: var(--backg) !important;
+  margin: 0 1rem !important;
+}
+.backg-reset {
+  /* this is used to reset Bootstrap background styles */
+  background-color: var(--backg) !important;
+}
+
+/* global fonts */
+nav a,
+body {
+  font-family: "Manrope", sans-serif !important;
+}
+span {
+  color: var(--textGreen);
+}
+
+/* ***** */
+/* start of page styling */
+header {
+  margin-bottom: 2rem;
+}
+nav {
+  justify-content: right;
+}
+h1 {
+  font-weight: 600 !important;
+  margin-top: 1rem !important;
+}
+h1 span {
+  color: var(--textGreen);
+}
+.card {
+  /* original html: style="width: 18rem" */
+  width: 15% !important;
+  margin: 0 auto !important;
+  color: #232323;
+  margin-top: 2rem !important;
+  text-align: center;
+
+  /* styling card and transition with green effect */
+  transition: all 0.7s;
+  box-shadow: 0 0 10px 1px var(--textGreen);
+}
+.card:hover {
+  transition: all 0.7s;
+  box-shadow: 0 0 200px 1px var(--textGreen);
+  transform: scale(1.1);
+}
+.card-body {
+  background-color: rgb(205, 205, 187, 0.8) !important;
+  padding: 0 0 !important;
+}
+
+/* jumbotron section */
+.jumbotron {
+  border-radius: 0 !important;
+  margin: 0 15% !important;
+  border-top: 1px var(--textGreen) dashed !important;
+  border-left: 1px var(--textGreen) solid !important;
+  border-right: 1px var(--textGreen) solid !important;
+}
+.profile-picture-2 {
+  width: 30%;
+}
+
+/* grid / my work section */
+.container-fluid {
+  border-top: 1px var(--textGreen) solid !important;
+  border-left: 1px var(--textGreen) solid !important;
+  border-right: 1px var(--textGreen) solid !important;
+  margin-top: 2rem !important;
+  background-image: url(/images/leaves-background.jpeg);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  height: 600px !important;
+}
+.col-sm {
+  text-align: center;
+}
+.column-image-2 {
+  width: 85% !important;
+}
+.row {
+  margin-top: 1rem !important;
+}
