@@ -97,7 +97,7 @@ h2 {
   background-image: url(/images/leaves-background.jpeg);
   background-repeat: no-repeat !important;
   background-size: cover;
-  height: 600px !important;
+  height: 100% !important;
 }
 .container-fluid h2 {
   padding-top: 6rem;
