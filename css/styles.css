@@ -45,7 +45,8 @@ h1 {
   font-weight: 600 !important;
   margin-top: 1rem !important;
 }
-h1 span {
+h1 span,
+h2 {
   color: var(--textGreen);
 }
 .card {
@@ -79,6 +80,10 @@ h1 span {
   border-left: 1px var(--textGreen) solid !important;
   border-right: 1px var(--textGreen) solid !important;
 }
+.jumbotron h2 {
+  margin-bottom: 2rem;
+}
+
 .profile-picture-2 {
   width: 30%;
   border: 1px var(--offWhite) solid !important;
