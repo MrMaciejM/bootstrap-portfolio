@@ -36,7 +36,7 @@ span {
 /* ***** */
 /* start of page styling */
 header {
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 nav {
   justify-content: right;
@@ -74,12 +74,14 @@ h1 span {
 .jumbotron {
   border-radius: 0 !important;
   margin: 0 15% !important;
+  margin-bottom: 6rem !important;
   border-top: 1px var(--textGreen) dashed !important;
   border-left: 1px var(--textGreen) solid !important;
   border-right: 1px var(--textGreen) solid !important;
 }
 .profile-picture-2 {
   width: 30%;
+  border: 1px var(--offWhite) solid !important;
 }
 
 /* grid / my work section */
@@ -87,17 +89,24 @@ h1 span {
   border-top: 1px var(--textGreen) solid !important;
   border-left: 1px var(--textGreen) solid !important;
   border-right: 1px var(--textGreen) solid !important;
-  margin-top: 2rem !important;
   background-image: url(/images/leaves-background.jpeg);
   background-repeat: no-repeat !important;
   background-size: cover;
   height: 600px !important;
 }
+.container-fluid h2 {
+  padding-top: 6rem;
+}
 .col-sm {
   text-align: center;
+  padding-top: 4rem !important;
 }
-.column-image-2 {
-  width: 85% !important;
+.project-images {
+  border: 1px solid var(--textGreen);
+  border-radius: 11px;
+}
+.project-image-2 {
+  width: 90% !important;
 }
 .row {
   margin-top: 1rem !important;
