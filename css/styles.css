@@ -12,7 +12,7 @@
 nav a,
 nav a:hover {
   color: var(--textGreen);
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 body {
   color: var(--offWhite) !important;
@@ -91,7 +91,7 @@ h2 {
 
 /* grid / my work section */
 .my-work-container-fix {
-  margin: 0 4% !important;
+  margin: 0 6% !important;
 }
 .container-fluid {
   border-top: 1px var(--textGreen) solid !important;
@@ -119,4 +119,24 @@ h2 {
 }
 .row {
   margin-top: 1rem !important;
+}
+
+/* contact section */
+
+.my-contact-container-fix {
+  margin: 0 4% !important;
+  border-left: 1px solid var(--textGreen);
+  border-right: 1px solid var(--textGreen);
+  padding: 0 1rem;
+  height: 800px;
+}
+.form-group input {
+  text-align: center;
+  width: 50% !important;
+  margin: 0 auto;
+  border-radius: 11px;
+}
+.btn {
+  display: block !important;
+  margin: 0 auto;
 }
