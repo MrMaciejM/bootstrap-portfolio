@@ -18,3 +18,6 @@ Below is the design screenshot, showcasing the **original** portfolio that I hav
 
 Here is the link to the repo.
 https://github.com/MrMaciejM/bootstrap-portfolio
+
+Link to deployed site:
+https://mrmaciejm.github.io/bootstrap-portfolio/
